@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Fest Management</title>
+    <link rel="stylesheet" href="fest.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- College Fest Image at the top -->
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="College Fest" class="hero-img">
+            </div>
+            <h1>College Fest 2025</h1>
+            <nav>
+                <ul>
+                    <!-- Update the 'Events' link to point to events.html or another page -->
+                    <li><a href="events.html">Events</a></li> <!-- Change to your actual events page -->
+                    <li><a href="#register">Register</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="event-list">
+                <div class="event-item">
+                    <h3>Tech Talk</h3>
+                    <p>Join us for an insightful session on the future of AI technology.</p>
+                    <button>Register Now</button>
+                </div>
+                <div class="event-item">
+                    <h3>Dance Competition</h3>
+                    <p>Show your moves and compete with the best dancers in the college.</p>
+                    <button>Register Now</button>
+                </div>
+                <div class="event-item">
+                    <h3>Art Exhibition</h3>
+                    <p>Explore amazing artworks created by the students of the college.</p>
+                    <button>Register Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="register">
+        <div class="container">
+            <h2>Register for the Fest</h2>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="event">Choose Event</label>
+                <select id="event" name="event" required>
+                    <option value="tech">Tech Talk</option>
+                    <option value="dance">Dance Competition</option>
+                    <option value="art">Art Exhibition</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 College Fest. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
